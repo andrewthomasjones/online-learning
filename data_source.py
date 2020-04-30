@@ -1,5 +1,8 @@
-#pip install --upgrade google-cloud-pubsub
-#export GOOGLE_APPLICATION_CREDENTIALS="/Users/andrewjones/Projects/svm-beam-online/sandbox-vm-252402-d51aad228cb8.json"
+#python -m venv env
+#source env/bin/activate
+#pip install -r requirements.txt
+#export GOOGLE_APPLICATION_CREDENTIALS="/Users/andrewjones/Projects/online-learning/sandbox-vm.json"
+
 """Publishes multiple messages to a Pub/Sub topic with an error handler."""
 import time
 import datetime
