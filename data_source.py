@@ -56,6 +56,6 @@ while(True):
         timestamp = datetime.datetime.now().strftime('%Y-%m-%dT%H:%M:%S')
         )
     # Publish failures shall be handled in the callback function.
-    print(future.result())
+    #print(future.result())
     # Wait for all the publish futures to resolve before exiting.
-    time.sleep(1)
+    time.sleep(.5)

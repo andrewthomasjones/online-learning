@@ -1,7 +1,7 @@
 from google.cloud import bigquery
 
 project_id = "sandbox-vm-252402"
-dataset_id = "stream_test2"
+dataset_id = "stream_test"
 table_id = "table1"
 
 
